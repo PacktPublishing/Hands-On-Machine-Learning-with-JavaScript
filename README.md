@@ -8,7 +8,7 @@ Hands-on Machine Learning with JavaScript presents various avenues of machine le
 By the end of this book, you'll have gained hands-on knowledge on evaluating and implementing the right model, along with choosing from different JS libraries, such as NaturalNode, brain, harthur, classifier, and many more to design smarter applications.
 
 ## Instructions and Navigation
-All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
+All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter01.
 
 
 
