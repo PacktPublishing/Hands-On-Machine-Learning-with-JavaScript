@@ -1,0 +1,21 @@
+{
+  "name": "Ch8-ANN",
+  "version": "1.0.0",
+  "description": "ML in JS Example for Chapter 8 - ANN",
+  "main": "src/index.js",
+  "author": "Burak Kanber",
+  "license": "MIT",
+  "scripts": {
+    "build-web": "browserify src/index.js -o dist/index.js -t [ babelify --presets [ env ] ]",
+    "build-cli": "browserify src/index.js --node -o dist/index.js -t [ babelify --presets [ env ] ]",
+    "start": "yarn build-cli && node dist/index.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.9.1",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^15.1.0"
+  }
+}
